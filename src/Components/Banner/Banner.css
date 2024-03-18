@@ -1,0 +1,8 @@
+.banner {
+  background-image: url("../../assets/bank-tree.jpeg");
+  height: 400px;
+  background-position: 0% 33%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}/*# sourceMappingURL=Banner.css.map */

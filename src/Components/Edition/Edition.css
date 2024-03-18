@@ -1,0 +1,10 @@
+.edit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.edit h1 {
+  color: white;
+  margin-bottom: 0;
+  text-align: center;
+}/*# sourceMappingURL=Edition.css.map */

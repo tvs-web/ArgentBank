@@ -1,0 +1,47 @@
+.formedit {
+  box-sizing: border-box;
+  background-color: white;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 3rem;
+  padding: 2rem;
+  text-align: center;
+  h1 {
+    font-size: 1.5rem;
+    color: black;
+    margin: 19.92px 0;
+  }
+  form {
+    .input-wrapper {
+      display: flex;
+      text-align: left;
+      margin-bottom: 1rem;
+
+      label {
+        font-weight: bold;
+        margin: auto;
+        width: 92px;
+      }
+      input {
+        padding: 5px;
+        font-size: 1.2rem;
+        border: solid 0.5px;
+        margin: auto;
+        width: 100px;
+      }
+    }
+    .edit_button {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 5px;
+      .saveCancel {
+        width: 115px;
+      }
+    }
+    .bis {
+      pointer-events: none;
+      background-color: rgb(232, 240, 254); /* Light blue */
+    }
+  }
+}

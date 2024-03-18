@@ -1,0 +1,42 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: white;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 3rem;
+  padding: 2rem;
+}
+.form h1 {
+  font-size: 1.5rem;
+  color: black;
+  margin: 19.92px 0;
+}
+.form form .input-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.form form .input-wrapper label {
+  font-weight: bold;
+}
+.form form .input-wrapper input {
+  padding: 5px;
+  font-size: 1.2rem;
+  border: solid 0.5px;
+}
+.form form .input-remember {
+  display: flex;
+}
+.form form .input-remember label {
+  margin-left: 4px;
+}
+.form form .sign-in-button {
+  width: 100%;
+}
+.form form a {
+  color: #fff;
+}/*# sourceMappingURL=Form.css.map */

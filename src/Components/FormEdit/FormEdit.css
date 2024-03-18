@@ -1,0 +1,44 @@
+.formedit {
+  box-sizing: border-box;
+  background-color: white;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 3rem;
+  padding: 2rem;
+  text-align: center;
+}
+.formedit h1 {
+  font-size: 1.5rem;
+  color: black;
+  margin: 19.92px 0;
+}
+.formedit form .input-wrapper {
+  display: flex;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.formedit form .input-wrapper label {
+  font-weight: bold;
+  margin: auto;
+  width: 92px;
+}
+.formedit form .input-wrapper input {
+  padding: 5px;
+  font-size: 1.2rem;
+  border: solid 0.5px;
+  margin: auto;
+  width: 100px;
+}
+.formedit form .edit_button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5px;
+}
+.formedit form .edit_button .saveCancel {
+  width: 115px;
+}
+.formedit form .bis {
+  pointer-events: none;
+  background-color: rgb(232, 240, 254); /* Light blue */
+}/*# sourceMappingURL=FormEdit.css.map */

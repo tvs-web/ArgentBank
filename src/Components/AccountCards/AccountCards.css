@@ -1,0 +1,33 @@
+.account {
+  margin-top: 2rem;
+}
+.account .accountcard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  background-color: white;
+  width: 80%;
+  margin: 0 auto;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+.account .accountcard .cards p {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: normal;
+}
+.account .accountcard .cards h3 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.account .accountcard .account_button {
+  font-size: 1.1rem;
+}
+.account .accountcard .account_button button {
+  width: 200px;
+}/*# sourceMappingURL=AccountCards.css.map */
